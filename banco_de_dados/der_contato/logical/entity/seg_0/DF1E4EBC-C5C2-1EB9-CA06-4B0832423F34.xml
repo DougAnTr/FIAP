@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF1E4EBC-C5C2-1EB9-CA06-4B0832423F34" name="T_ENDERECO">
+<createdBy>douglastrofino</createdBy>
+<createdTime>2021-05-14 21:17:18 UTC</createdTime>
+<ownerDesignName>der_contato</ownerDesignName>
+<engineerTo>
+<item key="1772216B-777B-A1AE-9293-81208EDC5130" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_endereco" id="59DBBAE6-47CE-D436-92DC-11F6322CC2E8">
+<createdBy>douglastrofino</createdBy>
+<createdTime>2021-05-14 21:17:31 UTC</createdTime>
+<ownerDesignName>der_contato</ownerDesignName>
+<engineerTo>
+<item key="1772216B-777B-A1AE-9293-81208EDC5130" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo_logradouro" id="F5F4F785-E51F-FEB3-1E0B-1A8F4295054C">
+<createdBy>douglastrofino</createdBy>
+<createdTime>2021-05-14 21:17:45 UTC</createdTime>
+<ownerDesignName>der_contato</ownerDesignName>
+<engineerTo>
+<item key="1772216B-777B-A1AE-9293-81208EDC5130" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_logradouro" id="4EDB3EA3-1A44-DEDD-DDD6-21FFC5F55725">
+<createdBy>douglastrofino</createdBy>
+<createdTime>2021-05-14 21:18:22 UTC</createdTime>
+<ownerDesignName>der_contato</ownerDesignName>
+<engineerTo>
+<item key="1772216B-777B-A1AE-9293-81208EDC5130" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sq_numero" id="38A0A491-7398-4ABC-D687-610D2C37BD04">
+<createdBy>douglastrofino</createdBy>
+<createdTime>2021-05-14 21:18:39 UTC</createdTime>
+<ownerDesignName>der_contato</ownerDesignName>
+<engineerTo>
+<item key="1772216B-777B-A1AE-9293-81208EDC5130" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_complemento" id="63ED5675-5DC1-F864-46A0-9589CA94B887">
+<createdBy>douglastrofino</createdBy>
+<createdTime>2021-05-14 21:18:44 UTC</createdTime>
+<ownerDesignName>der_contato</ownerDesignName>
+<engineerTo>
+<item key="1772216B-777B-A1AE-9293-81208EDC5130" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_bairro" id="22E36809-72A1-2850-37B0-E2901C872B85">
+<createdBy>douglastrofino</createdBy>
+<createdTime>2021-05-14 21:18:55 UTC</createdTime>
+<ownerDesignName>der_contato</ownerDesignName>
+<engineerTo>
+<item key="1772216B-777B-A1AE-9293-81208EDC5130" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_cidade" id="ECD92F98-123A-76EF-3D0E-3255661E4301">
+<createdBy>douglastrofino</createdBy>
+<createdTime>2021-05-14 21:19:03 UTC</createdTime>
+<ownerDesignName>der_contato</ownerDesignName>
+<engineerTo>
+<item key="1772216B-777B-A1AE-9293-81208EDC5130" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_estado" id="0BD61D83-BAB8-01E0-798A-9DF055807C00">
+<createdBy>douglastrofino</createdBy>
+<createdTime>2021-05-14 21:19:10 UTC</createdTime>
+<ownerDesignName>der_contato</ownerDesignName>
+<engineerTo>
+<item key="1772216B-777B-A1AE-9293-81208EDC5130" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_pais" id="7F3D31CF-68B2-369F-1184-92D19C15A962">
+<createdBy>douglastrofino</createdBy>
+<createdTime>2021-05-14 21:19:23 UTC</createdTime>
+<ownerDesignName>der_contato</ownerDesignName>
+<engineerTo>
+<item key="1772216B-777B-A1AE-9293-81208EDC5130" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sq_cep" id="5DD988CD-2D67-C6A9-C23B-B77D35686584">
+<createdBy>douglastrofino</createdBy>
+<createdTime>2021-05-14 21:19:29 UTC</createdTime>
+<ownerDesignName>der_contato</ownerDesignName>
+<engineerTo>
+<item key="1772216B-777B-A1AE-9293-81208EDC5130" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_contato" id="85C1723B-402E-ACC4-1309-EAF287B4F68F">
+<createdBy>douglastrofino</createdBy>
+<createdTime>2021-05-14 21:22:41 UTC</createdTime>
+<generatorID>B1591C03-6B1B-498C-F2CC-966DB6ABD2B1</generatorID>
+<ownerDesignName>der_contato</ownerDesignName>
+<engineerTo>
+<item key="1772216B-777B-A1AE-9293-81208EDC5130" value="true"/>
+</engineerTo>
+<referedAttribute>C7133642-3179-DB67-1EC2-CD4732B58954</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F0AE8860-FCCF-7383-3880-F84C82F7FEE2" name="T_ENDERECO PK">
+<createdBy>douglastrofino</createdBy>
+<createdTime>2021-05-14 21:17:43 UTC</createdTime>
+<ownerDesignName>der_contato</ownerDesignName>
+<engineerTo>
+<item key="1772216B-777B-A1AE-9293-81208EDC5130" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>59DBBAE6-47CE-D436-92DC-11F6322CC2E8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
